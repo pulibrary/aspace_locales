@@ -390,7 +390,7 @@ en:
       Preservation: Preservation #added November 2016
       Exhibit: Exhibit #added November 2016
       Sensitive Data Scan: Sensitive Data Scan #added November 2016
-	 Disk Image: Disk Image #added November 2016
+      Disk Image: Disk Image #added November 2016
       Checksum Generation: Checksum Generation #added November 2016
       File Identification: File Identification #added November 2016
     resource_resource_type:
@@ -450,21 +450,14 @@ en:
       pass: Pass
       partial pass: Partial Pass
       fail: Fail
-	Processing Complete: Processing Complete #Added December 2016
-	Sensitive Data Found:  Sensitive Data Found #Added December 2016
-
-	No Sensitive Data Found: No Sensitive Data Found #Added December 2016
-
-	Archives File(s) Found: Archive File(s) Found #Added December 2016
-
-	Extension Mismatch(es) Found: Extension Mismatch(es) Found #Added December 2016
-
-	Archive File(s) and Extension Mismatch(es) Found: Archive File(s) and Extension Mismatch(es) Found #Added December 2016
-
-	No Archive File or Extension Mismatch Found: No Archive File or Extension Mismatch Found #Added December 2016
-
-	Conservation treatment: Conservation treatment #Added December 2016
-
+      Processing Complete: Processing Complete #Added December 2016
+      Sensitive Data Found:  Sensitive Data Found #Added December 2016
+      No Sensitive Data Found: No Sensitive Data Found #Added December 2016
+      Archives File(s) Found: Archive File(s) Found #Added December 2016
+      Extension Mismatch(es) Found: Extension Mismatch(es) Found #Added December 2016
+      Archive File(s) and Extension Mismatch(es) Found: Archive File(s) and Extension Mismatch(es) Found #Added December 2016
+      No Archive File or Extension Mismatch Found: No Archive File or Extension Mismatch Found #Added December 2016
+      Conservation treatment: Conservation treatment #Added December 2016
     agent_contact_salutation:
       mr: Mr.
       mrs: Mrs.
