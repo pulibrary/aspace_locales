@@ -12,7 +12,7 @@ en:
     boolean_1: University Library Acknowledgement Sent #added December 2016
     boolean_2: Acknowledgement Sent? #added August 2016
     boolean_3: Monetary Appraisal? #added August 2016
-    integer_1: Integer 1
+    integer_1: Number of Tigers
     integer_2: Integer 2
     integer_3: Integer 3
     real_1: Price #added August 2016
