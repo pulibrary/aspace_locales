@@ -372,6 +372,7 @@ en:
       decryption: Decryption
       deletion: Deletion
       digital_signature_validation: Digital Signature Validation
+      digitization: Digitization 
       fixity_check: Fixity Check
       ingestion: Ingestion
       message_digest_calculation: Message Digest Calculation
