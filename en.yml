@@ -1988,3 +1988,45 @@ en:
 
   resource_component:
     _singular: Resource Component
+
+  assessment:
+    _singular: Assessment
+    _plural: Assessments
+
+  rights_type_other:
+    <<: *rights_statement_attributes
+    other_rights_basis: Other Rights Basis
+    start_date: Start Date
+    end_date: End Date
+
+  rights_statement_act: &rights_statement_act_attributes
+    _singular: Act
+    _plural: Acts
+    act_type: Act Type
+    act_type_tooltip: |
+       <p>The action this rights statement allows.</p>
+    restriction: Restriction
+    restriction_tooltip: |
+        <p>A condition or limitation on the act.</p>
+        <p>Examples:</p>
+        <ul>
+          <li>No more than three</li>
+          <li>Allowed only after one year of archival retention has elapsed</li>
+          <li>Rightsholder must be notified after completion of act</li>
+        </ul>
+    start_date: Start Date
+    start_date_tooltip: |
+        <p>The date the act went into effect.</p>
+    end_date: End Date
+    end_date_tooltip: |
+        <p>The date the act ends.</p>
+
+  rights_statement_external_document:
+    <<: *external_document_attributes
+    identifier_type: Identifier Type
+    identifier_type_tooltip: |
+        <p>The identifier type indicates what domain the external document belongs to.</p>
+
+  act:
+    <<: *rights_statement_act_attributes
+
