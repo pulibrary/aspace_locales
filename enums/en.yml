@@ -316,7 +316,7 @@ en:
       volumes: Volumes
       digital folders: digital folders #added November 2016
       digital files: digital files #added November 2016
-      item: item #added November 2016
+      items: items #added November 2016; updated June 2019 
       folder: folder #added November 2016
       boxes: boxes #added November 2016
       box: box #added September 2017 
