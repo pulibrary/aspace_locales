@@ -1534,6 +1534,9 @@ en:
     finding_aid_script: Script of Description
     finding_aid_script_tooltip: |
         <p>Indicates all the scripts present in the finding aid generated from the resource description.</p>
+    finding_aid_language_note: Language of Description Note
+    finding_aid_language_note_tooltip: |
+        <p>Notes on the languages present in the finding aid generated from the resource description.</p>
     finding_aid_sponsor: Sponsor
     finding_aid_sponsor_tooltip: |
         <p>Indicates any sponsors that contributed to the description of the finding aid.</p>
@@ -1565,6 +1568,9 @@ en:
     description: Revision Description
     description_tooltip: |
         <p>A description of the last revision(s) done to the finding aid.</p>
+    publish: Publish?
+    publish_tooltip: |
+        <p>Determines whether this Revision Statement is published to public (patron) interfaces.</p>
 
   related_resource:
     _singular: Related Resource
@@ -1631,6 +1637,9 @@ en:
         <p>A URL or other file location identifier referencing a file that contains a branding device to be used in the repository's online finding aids. A typical branding device is a university seal or logo.</p>
     _singular: Repository
     _plural: Repositories
+    publish: Publish?
+    publish_tooltip: |
+        <p>Determines whether this Repository and any record it contains will be published to public (patron) interfaces.</p>
 
   term: &term_attributes
     # tooltips not displaying
@@ -1950,6 +1959,17 @@ en:
     _singular: Background Job
     _plural: Background Jobs
     job_type: Job Type
+    types:
+      print_to_pdf_job: Generate PDF
+      report_job: Create Report
+      container_labels_job: Container Labels
+      container_conversion_job: Create Report
+      import_job: Import Data
+      generate_slugs_job: Generate Slugs in Bulk
+      generate_arks_job: Generate ARKs in Bulk
+      find_and_replace_job: Batch Find and Replace (Beta)
+      trim_whitespace_job: Trim Whitespace
+      unknown_job_type: Unknown job type
     status: Status
     status_completed: Completed
     status_queued: Queued
