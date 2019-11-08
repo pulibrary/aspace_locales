@@ -769,7 +769,7 @@ en:
     levels: Levels
 
   instance: &instance_attributes
-    is_representative: Is representative? 
+    is_representative: Is representative?
     instance_type: Type
     instance_type_tooltip: |
         <p>A designation of the manifestation for the described materials. The instance designation is optional, but required to open and complete a container record for the material described.</p>
@@ -1101,6 +1101,9 @@ en:
     <<: *date_attributes
 
   usage_date:
+    <<: *date_attributes
+
+  event_date:
     <<: *date_attributes
 
   archival_record_date:
@@ -1971,7 +1974,7 @@ en:
       creators: Creator
       notes: Notes
       subjects: Subject
-      identifier: Identifier 
+      identifier: Identifier
     boolean:
       published: Published?
       suppressed: Suppressed?
