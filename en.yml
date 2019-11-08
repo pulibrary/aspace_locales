@@ -18,7 +18,7 @@ en:
     real_1: Price #added August 2016
     real_2: Amount of Appraisal #added August 2016
     real_3: Real 3
-    string_1: Collecting Area #added June 2019 
+    string_1: Collecting Area #added June 2019
     string_2: Call Number #added August 2016
     string_3: Stacks Location #added January 2017
     string_4: Fund #added August 2016
@@ -2033,3 +2033,81 @@ en:
   act:
     <<: *rights_statement_act_attributes
 
+  assessment:
+    records: Records
+    records_tooltip: |
+        <p>REQUIRED FIELD: A link to the resource(s), accession(s), archival object(s), or digital object(s) that are the subjects of the assessment.</p>
+    accession_report: Accession Report
+    appraisal: Appraisal
+    container_list: Box/Container List
+    catalog_record: Catalog Record (MARC)
+    collections: Collections
+    control_file: Collection/Control File
+    conservation_note: Conservation Note
+    conservation_note_tooltip: <p>Indicates areas of particular concern with regard to the conservation needs of the collection.</p>
+    deed_of_gift: Deed of Gift
+    existing_description_notes: Existing Description Notes
+    existing_description_notes_tooltip: <p>Any further information on existing description for the materials.</p>
+    finding_aid_ead: Finding Aid (EAD-encoding)
+    finding_aid_online: Finding Aid (online)
+    finding_aid_paper: Finding Aid (paper only)
+    finding_aid_word: Finding Aid (word processing document)
+    finding_aid_spreadsheet: Finding Aid (spreadsheet)
+    id: ID
+    inactive: Inactive?
+    inactive_tooltip: <p>Indicates if the Assessment record is no longer considered “active” and thus should not be included in searches or reports.</p>
+    inactive_true: "Yes"
+    inactive_false: "No"
+    monetary_value: Monetary Value
+    monetary_value_tooltip: <p>Appraised or estimated market value of the assessed materials (numerical value).</p>
+    monetary_value_note: Monetary Value Note
+    monetary_value_note_tooltip: <p>Indicates who provided the monetary value, date of appraisal, and any other relevant information.</p>
+    surveyed_by: Surveyed By
+    surveyed_by_tooltip: |
+        <p>REQUIRED FIELD: Name(s) of the person(s) who performed the assessment. This field is restricted to those with user records in ArchivesSpace.</p>
+    survey_begin: Survey Begin Date
+    survey_begin_tooltip: |
+        <p>REQUIRED FIELD: The date the survey began, in yyyy-mm-dd format.</p>
+    survey_end: Survey Completed Date
+    survey_end_tooltip: <p>The date the survey ended, in yyyy-mm-dd format.</p>
+    surveyed_duration: Time it took to Complete Survey
+    surveyed_duration_tooltip: <p>The time it took to complete the survey, measured in hour increments.</p>
+    surveyed_extent: Extent Surveyed
+    surveyed_extent_tooltip: <p>The extent of the material surveyed in units such as cubic or linear feet.</p>
+    related_eac_records: Related EAC Record(s)
+    research_value: Research Value
+    research_value_tooltip: <p>This value is automatically calculated by adding the value in the Documentation Quality field with the value in the Interest field.</p>
+    review_required: Review Required?
+    review_required_tooltip: <p>Indicates if review is required for the collection because of its format, subject matter, or circumstances.</p>
+    review_required_true: "Yes"
+    review_required_false: "No"
+    review_note: Review Note
+    review_note_tooltip: <p>Explanation of the outcome of any special review.</p>
+    reviewer: Who Needs to Review
+    reviewer_tooltip: <p>Indicates who needs to perform the review. This field is restricted to those with user records in ArchivesSpace.</p>
+    purpose: Purpose of Assessment
+    purpose_tooltip: |
+        <p>Indicates the reason the assessment was undertaken. Examples: conservation priorities; processing priorities; appraisal; etc.</p>
+    scope: Scope of Assessment
+    scope_tooltip: |
+        <p>Indicates the scope of the assessment. Examples: 10% sampling; entirety; a particular format or genre within or across collections; or other constraints or conditions on materials actively reviewed during an assessment.</p>
+    sensitive_material: Sensitive Material?
+    sensitive_material_tooltip: <p>Indicates whether sensitive materials are present.</p>
+    sensitive_material_true: "Yes"
+    sensitive_material_false: "No"
+    general_assessment_note: General Assessment Note
+    general_assessment_note_tooltip: <p>Any further notes on an assessment.</p>
+    special_format_note: Special Format Note
+    special_format_note_tooltip: <p>Additional or explanatory information about the special formats present.</p>
+    exhibition_value_note: Exhibition Value Note
+    exhibition_value_note_tooltip: <p>Indicates whether the collection itself or individual items found in the collection might be especially appropriate for exhibition. For example, this field might note a unique artifact or a letter or photograph of historical significance.</p>
+    rating_attributes_value:
+      rating_none: No Rating
+      rating_1: "1"
+      rating_2: "2"
+      rating_3: "3"
+      rating_4: "4"
+      rating_5: "5"
+    rating_note: "%{label} Note"
+    _singular: Assessment
+    _plural: Assessments
