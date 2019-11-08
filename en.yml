@@ -885,6 +885,23 @@ en:
     _plural: Extents
     _singular: Extent
 
+  lang_material: &lang_material_attributes
+    _plural: Languages
+    _singular: Language
+
+  language_and_script:
+    <<: *lang_material_attributes
+    language: Language
+    language_tooltip: &language_language_tooltip |
+        <p>REQUIRED FIELD: The language term and code represented in the material(s) described. Codes drawn from ISO 639-2b: Codes for the Representation of Names of Languages.</p>
+    script: Script
+    script_tooltip: &language_script_tooltip |
+        <p>The script term and code represented in the material(s) described. Codes drawn from ISO 15924: Codes for the representation of names of scripts.</p>
+        <p>See DACS 4.5</p>
+
+  language_note:
+    <<: *lang_material_attributes
+
   container: &container_attributes
     type_1: Container 1 Type
     type_1_tooltip: &container_type_tooltip |
@@ -1514,6 +1531,9 @@ en:
     finding_aid_language: Language of Description
     finding_aid_language_tooltip: |
         <p>Indicates all the languages present in the finding aid generated from the resource description.</p>
+    finding_aid_script: Script of Description
+    finding_aid_script_tooltip: |
+        <p>Indicates all the scripts present in the finding aid generated from the resource description.</p>
     finding_aid_sponsor: Sponsor
     finding_aid_sponsor_tooltip: |
         <p>Indicates any sponsors that contributed to the description of the finding aid.</p>
