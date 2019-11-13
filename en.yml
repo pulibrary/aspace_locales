@@ -970,6 +970,14 @@ en:
     rights_type_tooltip: |
         <p>The basis for the rights statement being made.Four bases are allowed: intellectual property, license, such as donor agreement, legal statutes such as Fair Use or FERPA, and institutional policy.</p>
     rights_type_message: Please select a Rights Type
+    status: Status
+    status_tooltip: |
+        <p>A coded designation for the copyright status of the object at the time the rights statement is recorded.</p>
+        <ul>
+          <li>Copyrighted = Under copyright.</li>
+          <li>Public domain = In the public domain.</li>
+          <li>Unknown = Copyright status of the resource is unknown</li>
+        </ul>
     active: Active
     active_tooltip: |
         <p>Indicates whether a rights record is active or inactive.</p>
@@ -1008,6 +1016,16 @@ en:
         <ul>
         <li>Constraint(s) on Use: This work may be protected by copyright law. Use of this work beyond that allowed by the applicable copyright statute requires the written permission of the copyright holder(s). Responsibility for obtaining permissions for any use and distribution of this work rests exclusively with the user and not the UC San Diego Libraries. Inquiries can be made to the Mandeville Special Collections Library (http://libraries.ucsd.edu/locations/mscl/).</li>
         </ul>
+    determination_date: Determination Date
+    determination_date_tooltip: |
+      <p>Copyright: The date the copyright status recorded in copyright status was determined.</p>
+      <p>Statute: The date that the determination was made that the statute authorized the permission(s) noted.</p>
+    start_date: Start Date
+    start_date_tooltip: |
+      <p>The date the rights statement went into effect.</p>
+    end_date: End Date
+    end_date_tooltip: |
+      <p>The date the rights statement ends.</p>
     permissions: Permissions
     permissions_tooltip: |
         <p>A description of what kinds of actions are permissible to the repository and/or the end user.</p>
