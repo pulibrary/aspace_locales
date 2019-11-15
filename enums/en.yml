@@ -1316,7 +1316,19 @@ en:
       YE: Yemen
       ZM: Zambia
       ZW: Zimbabwe
+    rights_statement_act_type:
+      delete: Delete
+      disseminate: Disseminate
+      migrate: Migrate
+      modify: Modify
+      replicate: Replicate
+      use: Use
+    rights_statement_act_restriction:
+      allow: Allow
+      disallow: Disallow
+      conditional: Conditional
     rights_statement_rights_type:
+      copyright: Copyright
       intellectual_property: Intellectual Property
       license: License
       statute: Statute
@@ -1325,6 +1337,9 @@ en:
       copyrighted: Copyrighted
       public_domain: Public Domain
       unknown: Unknown
+    rights_statement_other_rights_basis:
+      donor: Donor
+      policy: Policy
     subject_term_type:
       cultural_context: Cultural context
       function: Function
@@ -1372,12 +1387,25 @@ en:
       physloc: Physical Location
       materialspec: Materials Specific Details
       physfacet: Physical Facet
+      rights_statement: Rights
     note_digital_object_type:
+      <<: *note_type_definitions
+    note_langmaterial_type:
       <<: *note_type_definitions
     note_multipart_type:
       <<: *note_type_definitions
     note_singlepart_type:
       <<: *note_type_definitions
+    note_rights_statement_type:
+      materials: Materials
+      type_note: Type Note
+      additional_information: Additional Information
+    note_rights_statement_act_type:
+      expiration: Expiration
+      extension: Extension
+      permissions: Permissions
+      restrictions: Restrictions
+      additional_information: Additional Information
     linked_agent_role:
       creator: Creator
       source: Source
@@ -1482,6 +1510,7 @@ en:
     file_version_xlink_show_attribute: File Version Xlink Show Attribute
     instance_instance_type: Instance Instance Type
     language_iso639_2: Language ISO 639-2
+    script_iso15924: Language Script ISO 15924
     linked_agent_archival_record_relators: Linked Agent Archival Record Relators
     linked_agent_event_roles: Linked Agent Event Roles
     linked_agent_role: Linked Agent Role
@@ -1492,10 +1521,13 @@ en:
     name_source: Name Source
     note_bibliography_type: Note Bibliography Type
     note_digital_object_type: Note Digital Object Type
+    note_langmaterial_type: Note Language of Materials Type
     note_index_item_type: Note Index Item Type
     note_index_type: Note Index Type
     note_multipart_type: Note Multipart Type
     note_orderedlist_enumeration: Note Orderedlist Enumeration
+    note_rights_statement_act_type: Note Rights Statement Act Type
+    note_rights_statement_type: Note Rights Statement Type
     note_singlepart_type: Note Singlepart Type
     telephone_number_type: Telephone Number Type 
     resource_finding_aid_description_rules: Resource Finding Aid Description Rules
@@ -1513,3 +1545,7 @@ en:
     dimension_units: Dimension Units
     restriction_type: Local Access Restriction Type
     location_function_type: Location Function Type
+    rights_statement_external_document_identifier_type: Rights Statement External Document Identifier Type
+    rights_statement_act_restriction: Rights Statement Act Restriction
+    rights_statement_act_type: Rights Statement Act Type
+    rights_statement_other_rights_basis: Rights Statement Other Rights Basis
