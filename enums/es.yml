@@ -1,4 +1,5 @@
-﻿es:
+---
+es:
   enumerations:
     linked_event_archival_record_roles:
       source: Fuente
@@ -276,14 +277,14 @@
       win: Escritor de introducción
       wpr: Escritor de prefacio
       wst: Escritor de contexto suplementario
-    linked_agent_event_roles: 
+    linked_agent_event_roles:
       authorizer: Autorizador
       executing_program: Programa en ejecución
       implementer: Implementador
       recipient: Destinatario
       transmitter: Transmisor
       validator: Validador
-    name_source: 
+    name_source:
       cash: Encabezamientos de materias canadienses
       ingest: Sin especificar
       lcshac: Biblioteca del encabezamientos Congreso infantil
@@ -293,12 +294,12 @@
       nal: Encabezamientos biblioteca agrícola nacionales
       rvm: Répertoire de vedettes-matière
       ulan: Union List of Artist Names
-    name_rule: 
+    name_rule:
       local: Reglas locales
       aacr: Reglas de catalogación angloamericanas
-      dacs: "Describing Archives: A Content Standard"
+      dacs: 'Describing Archives: A Content Standard'
       rda: Resource Description and Access
-    extent_extent_type: 
+    extent_extent_type:
       cassettes: Casetes
       cubic_feet: Metros cúbicos
       files: Archivos
@@ -312,21 +313,21 @@
       sheets: Partituras
       terabytes: Terabytes
       volumes: Volúmenes
-    collection_management_processing_priority: 
+    collection_management_processing_priority:
       none: Sin especificar
       high: Alta
       medium: Medio
       low: Baja
-    collection_management_processing_status: 
+    collection_management_processing_status:
       none: Sin especificar
       new: Nuevo
       in_progress: En progreso
       completed: Completado
-    date_era: 
+    date_era:
       ce: CE
-    date_calendar: 
+    date_calendar:
       gregorian: Gregoriano
-    digital_object_digital_object_type: 
+    digital_object_digital_object_type:
       cartographic: Cartográfica
       mixed_materials: Materiales diversos
       moving_image: Imagen en movimiento
@@ -337,11 +338,11 @@
       sound_recording_nonmusical: Gabación de sonido(No musicales)
       still_image: Imagen fija
       text: Texto
-    digital_object_level: 
+    digital_object_level:
       collection: Colección
       work: Trabajo
       image: Imagen
-    event_event_type: 
+    event_event_type:
       accession: Acta de ingreso
       accumulation: Acumulación
       acknowledgement: Reconocimiento
@@ -376,23 +377,23 @@
       rights_transferred: Derechos transferidos
       validation: Validación
       virus_check: Comprobación de virus
-    resource_resource_type: 
+    resource_resource_type:
       collection: Colección
       publications: Publicaciones
       papers: Papeles
       records: Registros
-    resource_finding_aid_description_rules: 
+    resource_finding_aid_description_rules:
       aacr: Reglas de catalogación angloamericanas (AACR)
       cco: Catalogación de bienes culturales (CCO)
       dacs: Descripción de archivos (DACS)
       rad: Reglas para la descripción archivística (RAD)
       isadg: Norma internacional de descripción archivística - General (ISADG)
-    resource_finding_aid_status: 
+    resource_finding_aid_status:
       completed: Completado
       in_progress: En proceso
       under_revision: En revisión
       unprocessed: Sin procesar
-    instance_instance_type: 
+    instance_instance_type:
       accession: Acta de ingreso
       audio: Audio
       books: Libros
@@ -406,22 +407,22 @@
       moving_images: Imágenes en movimiento
       realia: Realia
       text: Texto
-    accession_acquisition_type: 
+    accession_acquisition_type:
       deposit: Depósito
       gift: Regalo
       purchase: Compra
       transfer: Transferencia
-    accession_resource_type: 
+    accession_resource_type:
       collection: Colección
       publications: Publicaciones
       papers: Papeles
       records: Registros
-    subject_source: 
-      aat: "Thesaurus Getty de Arte & Arquitectura"
+    subject_source:
+      aat: Thesaurus Getty de Arte & Arquitectura
       cash: Encabezamientos de materias canadienses
-      gmgpc: "TGM II, género y términos característicos físicos"
+      gmgpc: TGM II, género y términos característicos físicos
       ingest: Sin especificar
-      lcsh: Encabezamientos de la Biblioteca del Congreso 
+      lcsh: Encabezamientos de la Biblioteca del Congreso
       lcshac: Encabezamientos de la Biblioteca Congreso Infantil
       local: Fuentes locales
       mesh: Encabezamientos de materia médica
@@ -429,17 +430,17 @@
       rbgenr: Términos de género
       rvm: Répertoire de vedettes-matière
       tgn: Thesaurus Getty de Nombres Geográficos
-    event_outcome: 
+    event_outcome:
       pass: Pase
       partial pass: Paso parcial
       fail: Fallo
-    agent_contact_salutation: 
+    agent_contact_salutation:
       mr: Señor
       mrs: Señora.
       ms: MS.
       madame: Madame
       sir: Señor
-    container_type: 
+    container_type:
       box: Caja
       carton: Cartón
       case: Cajón
@@ -449,7 +450,7 @@
       page: Página
       reel: Carrete
       volume: Volumen
-    file_version_use_statement: 
+    file_version_use_statement:
       audio-clip: Clip de audio
       audio-master: Audio-Master
       audio-master-edited: Audio-Master-Editado
@@ -473,13 +474,13 @@
       video-master-edited: Video-Master-Editado
       video-service: Video-Servicio
       video-streaming: Streaming Video
-    file_version_checksum_methods: 
+    file_version_checksum_methods:
       md5: MD5
       sha-1: SHA-1
       sha-256: SHA-256
       sha-384: SHA-384
       sha-512: SHA-512
-    language_iso639_2: 
+    language_iso639_2:
       aar: Afar
       abk: Abjasia
       ace: Achinese
@@ -497,7 +498,7 @@
       alg: Lenguas algonquinas
       alt: Altai del sur
       amh: Amárico
-      ang: "Inglés, antiguo (ca.450-1100)"
+      ang: Inglés, antiguo (ca.450-1100)
       anp: Angika
       apa: Idiomas de Apache
       ara: Árabe
@@ -565,16 +566,17 @@
       cho: Choctaw
       chp: Chipewyan; Dene Suline
       chr: Cherokee
-      chu: Iglesia eslava; Antiguo eslavo; Eslavo eclesiástico; Antiguo búlgaro; Antiguo eslavo eclesiástico
+      chu: Iglesia eslava; Antiguo eslavo; Eslavo eclesiástico; Antiguo búlgaro; Antiguo
+        eslavo eclesiástico
       chv: Chuvasio
       chy: Cheyenne
       cmc: Chamic languages
       cop: Copto
       cor: Cornish
       cos: Corso
-      cpe: "Los criollos y pidgins, basado en inglés"
-      cpf: "Los criollos y pidgins, basado en francés"
-      cpp: "Los criollos y pidgins, base portuguesa"
+      cpe: Los criollos y pidgins, basado en inglés
+      cpf: Los criollos y pidgins, basado en francés
+      cpp: Los criollos y pidgins, base portuguesa
       cre: Cree
       crh: Tártaro de Crimea; Crimea Turco
       crp: Criollos y pidgins
@@ -594,7 +596,7 @@
       dra: Idiomas de Dravidian
       dsb: Bajo sorbio
       dua: Duala
-      dum: "Holandesa, media (ca.1050-1350)"
+      dum: Holandesa, media (ca.1050-1350)
       dut: Holandés; Flamenco
       dyu: Diula
       dzo: Dzongkha
@@ -603,7 +605,7 @@
       eka: Ekajuk
       elx: Elamita
       eng: Inglés
-      enm: "Inglés, medio (1100-1500)"
+      enm: Inglés, medio (1100-1500)
       epo: Esperanto
       est: Estonio
       ewe: Oveja
@@ -617,8 +619,8 @@
       fiu: Lenguas ugrofinesas
       fon: Fon
       fre: Francés
-      frm: "El francés, medio (ca.1400-1600)"
-      fro: "El francés, antiguo (842-ca.1400)"
+      frm: El francés, medio (ca.1400-1600)
+      fro: El francés, antiguo (842-ca.1400)
       frr: Frisia del norte
       frs: Frisia oriental
       fry: Frisón occidental
@@ -636,14 +638,14 @@
       gle: Irlandés
       glg: Gallego
       glv: Manx
-      gmh: "Alemán, media alta (ca.1050-1500)"
-      goh: "Alemán, viejo alto (ca.750-1050)"
+      gmh: Alemán, media alta (ca.1050-1500)
+      goh: Alemán, viejo alto (ca.750-1050)
       gon: Gondi
       gor: Gorontalo
       got: Gótico
       grb: Grebo
-      grc: "Griego, antiguo (a 1453)"
-      gre: "Griego, moderna (1453-)"
+      grc: Griego, antiguo (a 1453)
+      gre: Griego, moderna (1453-)
       grn: Guaraní
       gsw: Alemán suizo; Alsaciano; Alsaciano
       guj: Gujarati
@@ -757,7 +759,7 @@
       mdf: Moksha
       mdr: Mandar
       men: Mende
-      mga: "Irlandés, medio (900-1200)"
+      mga: Irlandés, medio (900-1200)
       mic: Mi'kmaq; Micmac
       min: Minangkabau
       mis: Idiomas sin codificar
@@ -782,19 +784,19 @@
       nap: Napolitano
       nau: Nauru
       nav: Navajo; Navajo
-      nbl: "Ndebele, al sur; Ndebele del sur"
-      nde: "Ndebele, al norte; Ndebele del Norte"
+      nbl: Ndebele, al sur; Ndebele del sur
+      nde: Ndebele, al norte; Ndebele del Norte
       ndo: Ndonga
-      nds: "Bajo alemán; Bajo sajón; Alemán, bajo; Saxon, Low"
+      nds: Bajo alemán; Bajo sajón; Alemán, bajo; Saxon, Low
       nep: Nepali
       new: Nepal Bhasa; Newari
       nia: Nias
       nic: Lenguas Niger-Kordofanian
       niu: Niuean
-      nno: "Noruego Nynorsk; Nynorsk, noruego"
-      nob: "Noruego Bokmål; Bokmål, noruego"
+      nno: Noruego Nynorsk; Nynorsk, noruego
+      nob: Noruego Bokmål; Bokmål, noruego
       nog: Nogai
-      non: "Norse, antiguo"
+      non: Norse, antiguo
       nor: Noruego
       nqo: N ' Ko
       nso: Pedi; Sepedi; Sotho del Norte
@@ -811,7 +813,7 @@
       orm: Oromo
       osa: Osage
       oss: Osetia; Ossetic
-      ota: "Turco, otomano (1500-1928)"
+      ota: Turco, otomano (1500-1928)
       oto: Otomian languages
       paa: Lenguas papúes
       pag: Pangasinan
@@ -820,7 +822,7 @@
       pan: Panjabi; Punjabí
       pap: Papiamento
       pau: Palao
-      peo: "Persa, antiguo (ca.600-400 A.C.)"
+      peo: Persa, antiguo (ca.600-400 A.C.)
       per: Persa
       phi: Idiomas Filipinas
       phn: Fenicia
@@ -829,9 +831,9 @@
       pon: Pohnpeian
       por: Portugués
       pra: Lenguas Prakrit
-      pro: "Provenzal, antiguo (hasta 1500)"
+      pro: Provenzal, antiguo (hasta 1500)
       pus: Pushto; Pashto
-      qaa-qtz: "Reservado para uso local"
+      qaa-qtz: Reservado para uso local
       que: Quechua
       raj: Rajasthani
       rap: Rapanui
@@ -856,7 +858,7 @@
       sco: Los escoceses
       sel: Selkup
       sem: Lenguas semíticas
-      sga: "Irlandés, viejo (a 900)"
+      sga: Irlandés, viejo (a 900)
       sgn: Lenguaje de señas
       shn: Shan
       sid: Sidamo
@@ -879,7 +881,7 @@
       sog: Sogdiano
       som: Somalí
       son: Idiomas de Songhai
-      sot: "Sotho, sur"
+      sot: Sotho, sur
       spa: Español; Castellano
       srd: Sardo
       srn: Sranan Tongo
@@ -965,7 +967,7 @@
       zun: Zuni
       zxx: No hay contenido lingüístico; No aplicable
       zza: Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki
-    archival_record_level: 
+    archival_record_level:
       class: Clase
       collection: Colección
       file: Documento de archivo
@@ -977,16 +979,16 @@
       subfonds: Subfondos
       subgrp: Subgrupo
       subseries: Subserie
-    container_location_status: 
+    container_location_status:
       current: Actual
       previous: Anterior
-    date_type: 
+    date_type:
       expression: Formato
       single: Individual
       bulk: Fechas extremas
       inclusive: Fechas de creación fondo
       range: Rango
-    date_label: 
+    date_label:
       record_keeping: Mantenimiento de Registros
       broadcast: Difusión
       copyright: Copyright
@@ -1001,28 +1003,28 @@
       publication: Publicación
       usage: Utilización
       other: Otras
-    date_certainty: 
+    date_certainty:
       approximate: Aproximada
       inferred: Deducida
       questionable: Cuestionable
-    extent_portion: 
+    extent_portion:
       whole: Total
       part: Parcial
-    deaccession_scope: 
+    deaccession_scope:
       whole: Total
       part: Parcial
-    file_version_xlink_actuate_attribute: 
+    file_version_xlink_actuate_attribute:
       none: Ninguno
       other: otros
       onLoad: onLoad
       onRequest: onRequest
-    file_version_xlink_show_attribute: 
+    file_version_xlink_show_attribute:
       new: Nueva
       replace: reemplazar
       embed: Insertar
       other: otros
       none: Ninguno
-    file_version_file_format_name: 
+    file_version_file_format_name:
       aiff: Audio Interchange File Format
       avi: Audio/vídeo entrelazado formato
       gif: Formato de intercambio de gráficos
@@ -1031,15 +1033,15 @@
       pdf: Formato de documento portátil
       tiff: Tagged Image File Format
       txt: Archivo de texto plano
-    location_temporary: 
+    location_temporary:
       conservation: Conservación
       exhibit: Exposición
       loan: Préstamo
       reading_room: Sala de lectura
-    name_person_name_order: 
+    name_person_name_order:
       direct: Directa
       inverted: Indirecta
-    country_iso_3166: 
+    country_iso_3166:
       AF: Afganistán
       AX: Islas Åland
       AL: Albania
@@ -1067,7 +1069,7 @@
       BM: Bermuda
       BT: Bután
       BO: Bolivia
-      BQ: "Bonaire, Sint Eustatius y Saba"
+      BQ: Bonaire, Sint Eustatius y Saba
       BA: Bosnia-Herzegovina
       BW: Botswana
       BV: Isla Bouvet
@@ -1144,7 +1146,7 @@
       IS: Islandia
       IN: India
       ID: Indonesia
-      IR: "La República Islámica de Irán"
+      IR: La República Islámica de Irán
       IQ: Irak
       IE: Irlanda
       IM: Isla de Man
@@ -1157,11 +1159,11 @@
       KZ: Kazajstán
       KE: Kenia
       KI: Kiribati
-      KP: "La República Democrática Popular de Corea"
-      KR: "Corea del sur"
+      KP: La República Democrática Popular de Corea
+      KR: Corea del sur
       KW: Kuwait
       KG: Kirguizistán
-      LA: "República Democrática Popular Lao"
+      LA: República Democrática Popular Lao
       LV: Letonia
       LB: Líbano
       LS: Lesotho
@@ -1171,7 +1173,7 @@
       LT: Lituania
       LU: Luxemburgo
       MO: Macao
-      MK: "Antigua República Yugoslava de Macedonia"
+      MK: Antigua República Yugoslava de Macedonia
       MG: Madagascar
       MW: Malawi
       MY: Malasia
@@ -1184,8 +1186,8 @@
       MU: Mauricio
       YT: Mayotte
       MX: México
-      FM: "Micronesia, Estados Federados de"
-      MD: "Moldavia"
+      FM: Micronesia, Estados Federados de
+      MD: Moldavia
       MC: Mónaco
       MN: Mongolia
       ME: Montenegro
@@ -1205,11 +1207,11 @@
       NU: Niue
       NF: Isla Norfolk
       MP: Islas Marianas del norte
-      NO: Noruega
+      false: Noruega
       OM: Omán
       PK: Pakistán
       PW: Palau
-      PS: "Territorio palestino, ocupado"
+      PS: Territorio palestino, ocupado
       PA: Panamá
       PG: Papua Nueva Guinea
       PY: Paraguay
@@ -1225,7 +1227,7 @@
       RU: Federación de Rusia
       RW: Ruanda
       BL: Saint Barthélemy
-      SH: "Santa Elena, ascensión y Tristán da Cunha"
+      SH: Santa Elena, ascensión y Tristán da Cunha
       KN: Saint Kitts y Nevis
       LC: Santa Lucía
       MF: San Martín (parte francesa)
@@ -1257,9 +1259,9 @@
       SE: Suecia
       CH: Suiza
       SY: República Árabe Siria
-      TW: "Taiwán, provincia de China"
+      TW: Taiwán, provincia de China
       TJ: Tayikistán
-      TZ: "Tanzania, República Unida de"
+      TZ: Tanzania, República Unida de
       TH: Tailandia
       TL: Timor-Leste
       TG: Togo
@@ -1282,34 +1284,34 @@
       VU: Vanuatu
       VE: Venezuela
       VN: Vietnam
-      VG: "Virgin Islands, British"
-      VI: "Virgin Islands, U.S."
+      VG: Virgin Islands, British
+      VI: Virgin Islands, U.S.
       WF: Wallis y Futuna
       EH: Sáhara Occidental
       YE: Yemen
       ZM: Zambia
       ZW: Zimbabue
-    rights_statement_rights_type: 
+    rights_statement_rights_type:
       intellectual_property: Propiedad intelectual
       license: Licencia
       statute: Estatuto
       institutional_policy: Política institucional
-    rights_statement_ip_status: 
+    rights_statement_ip_status:
       copyrighted: Derechos de autor
       public_domain: Dominio público
       unknown: Desconocido
-    subject_term_type: 
+    subject_term_type:
       cultural_context: Contexto cultural
       function: Función
       geographic: Geográfica
-      genre_form: "Género / forma"
+      genre_form: Género / forma
       occupation: Ocupación
-      style_period: "Estilo / período"
+      style_period: Estilo / período
       technique: Técnica
       temporal: Temporal
       topical: Tópico
       uniform_title: Título uniforme
-    _note_types: &note_type_definitions
+    _note_types:
       accessrestrict: Nota de condiciones de acceso
       accruals: Nota de nuevos ingresos
       acqinfo: Nota de información de adquisiciones
@@ -1327,7 +1329,7 @@
       phystech: Nota de características físicas y requisitos técnicos
       prefercite: Nota de cita preferida
       processinfo: Nota de información del proceso
-      relatedmaterial: Nota de material relacionado
+      relatedmaterial: Nota de materiales relacionados
       scopecontent: Nota de alcance y contenido
       separatedmaterial: Nota de documentos separados
       userestrict: Nota de restricciones de uso
@@ -1340,42 +1342,140 @@
       inscription: Nota de inscripción
       langmaterial: Nota de idioma de materiales
       physdesc: Nota de descripción física
-      relatedmaterial: Nota de materiales relacionados
       abstract: Resumen introductorio
       physloc: Nota de ubicación física
       materialspec: Nota de detalles específicos de los materiales
       physfacet: Nota de apariencia del material
-    note_digital_object_type: 
-      <<: *note_type_definitions
-    note_multipart_type: 
-      <<: *note_type_definitions
-    note_singlepart_type: 
-      <<: *note_type_definitions
-    linked_agent_role: 
+    note_digital_object_type:
+      accessrestrict: Nota de condiciones de acceso
+      accruals: Nota de nuevos ingresos
+      acqinfo: Nota de información de adquisiciones
+      altformavail: Nota de formatos alternativos disponibles
+      appraisal: Nota de valoración
+      arrangement: Nota de organización
+      bibliography: Nota de bibliografía
+      bioghist: Nota biográfica/histórica
+      custodhist: Nota de historia archivística
+      fileplan: Nota de proyecto de expediente
+      index: Índice
+      odd: Nota de otros datos descriptivos
+      otherfindaid: Nota de otros instrumentos de descripción
+      originalsloc: Nota de existencia y la localización de los originales
+      phystech: Nota de características físicas y requisitos técnicos
+      prefercite: Nota de cita preferida
+      processinfo: Nota de información del proceso
+      relatedmaterial: Nota de materiales relacionados
+      scopecontent: Nota de alcance y contenido
+      separatedmaterial: Nota de documentos separados
+      userestrict: Nota de restricciones de uso
+      dimensions: Nota de tamaño
+      legalstatus: Nota de situación jurídica
+      summary: Nota de resumen
+      edition: Nota de edición
+      extent: Nota de extensión
+      note: Nota general
+      inscription: Nota de inscripción
+      langmaterial: Nota de idioma de materiales
+      physdesc: Nota de descripción física
+      abstract: Resumen introductorio
+      physloc: Nota de ubicación física
+      materialspec: Nota de detalles específicos de los materiales
+      physfacet: Nota de apariencia del material
+    note_multipart_type:
+      accessrestrict: Nota de condiciones de acceso
+      accruals: Nota de nuevos ingresos
+      acqinfo: Nota de información de adquisiciones
+      altformavail: Nota de formatos alternativos disponibles
+      appraisal: Nota de valoración
+      arrangement: Nota de organización
+      bibliography: Nota de bibliografía
+      bioghist: Nota biográfica/histórica
+      custodhist: Nota de historia archivística
+      fileplan: Nota de proyecto de expediente
+      index: Índice
+      odd: Nota de otros datos descriptivos
+      otherfindaid: Nota de otros instrumentos de descripción
+      originalsloc: Nota de existencia y la localización de los originales
+      phystech: Nota de características físicas y requisitos técnicos
+      prefercite: Nota de cita preferida
+      processinfo: Nota de información del proceso
+      relatedmaterial: Nota de materiales relacionados
+      scopecontent: Nota de alcance y contenido
+      separatedmaterial: Nota de documentos separados
+      userestrict: Nota de restricciones de uso
+      dimensions: Nota de tamaño
+      legalstatus: Nota de situación jurídica
+      summary: Nota de resumen
+      edition: Nota de edición
+      extent: Nota de extensión
+      note: Nota general
+      inscription: Nota de inscripción
+      langmaterial: Nota de idioma de materiales
+      physdesc: Nota de descripción física
+      abstract: Resumen introductorio
+      physloc: Nota de ubicación física
+      materialspec: Nota de detalles específicos de los materiales
+      physfacet: Nota de apariencia del material
+    note_singlepart_type:
+      accessrestrict: Nota de condiciones de acceso
+      accruals: Nota de nuevos ingresos
+      acqinfo: Nota de información de adquisiciones
+      altformavail: Nota de formatos alternativos disponibles
+      appraisal: Nota de valoración
+      arrangement: Nota de organización
+      bibliography: Nota de bibliografía
+      bioghist: Nota biográfica/histórica
+      custodhist: Nota de historia archivística
+      fileplan: Nota de proyecto de expediente
+      index: Índice
+      odd: Nota de otros datos descriptivos
+      otherfindaid: Nota de otros instrumentos de descripción
+      originalsloc: Nota de existencia y la localización de los originales
+      phystech: Nota de características físicas y requisitos técnicos
+      prefercite: Nota de cita preferida
+      processinfo: Nota de información del proceso
+      relatedmaterial: Nota de materiales relacionados
+      scopecontent: Nota de alcance y contenido
+      separatedmaterial: Nota de documentos separados
+      userestrict: Nota de restricciones de uso
+      dimensions: Nota de tamaño
+      legalstatus: Nota de situación jurídica
+      summary: Nota de resumen
+      edition: Nota de edición
+      extent: Nota de extensión
+      note: Nota general
+      inscription: Nota de inscripción
+      langmaterial: Nota de idioma de materiales
+      physdesc: Nota de descripción física
+      abstract: Resumen introductorio
+      physloc: Nota de ubicación física
+      materialspec: Nota de detalles específicos de los materiales
+      physfacet: Nota de apariencia del material
+    linked_agent_role:
       creator: Autor
       source: Donante
       subject: Materia
-    agent_relationship_associative_relator: 
+    agent_relationship_associative_relator:
       is_associative_with: Associative with Related
-    agent_relationship_earlierlater_relator: 
+    agent_relationship_earlierlater_relator:
       is_earlier_form_of: Earlier Form of Related
       is_later_form_of: Later Form of Related
-    agent_relationship_parentchild_relator: 
+    agent_relationship_parentchild_relator:
       is_child_of: Hijo de relacionados
       is_parent_of: Padre de relacionados
-    accession_sibling_relator: 
+    accession_sibling_relator:
       sibling_of: Es hermano de
-    accession_parts_relator: 
+    accession_parts_relator:
       forms_part_of: Forma parte de
       has_part: Tiene parte
-    accession_parts_relator_type: 
+    accession_parts_relator_type:
       part: Relación de "\"Parte\""
-    accession_sibling_relator_type: 
+    accession_sibling_relator_type:
       bound_with: Relación de "\"Unido a\""
-    agent_relationship_subordinatesuperior_relator: 
+    agent_relationship_subordinatesuperior_relator:
       is_subordinate_to: Es subordinado a relacionados
       is_superior_of: El superior de relacionados
-    note_index_item_type: 
+    note_index_item_type:
       name: Nombre
       person: Persona
       family: Familia
@@ -1385,35 +1485,36 @@
       occupation: Ocupación
       title: Título
       geographic_name: Nombre geográfico
-    user_defined_enum_1: 
+    user_defined_enum_1:
       novalue: Ningún valor definido
-    user_defined_enum_2: 
+    user_defined_enum_2:
       novalue: Ningún valor definido
-    user_defined_enum_3: 
+    user_defined_enum_3:
       novalue: Ningún valor definido
-    user_defined_enum_4: 
+    user_defined_enum_4:
       novalue: Ningún valor definido
     job_type:
       print_to_pdf_job: Imprimir en PDF
       import_job: Importar Datos
       find_and_replace_job: Busca y reemplaza en bloque (Beta)
-
-
-  enumeration_names: 
+  enumeration_names:
     accession_acquisition_type: Tipo de acta de ingreso
     accession_parts_relator: Partes de acta de ingreso relacionadas
     accession_parts_relator_type: Tipos de partes de acta de ingreso relacionadas
-    accession_sibling_relator: "Tipo de relación de acta de ingreso de hermano"
+    accession_sibling_relator: Tipo de relación de acta de ingreso de hermano
     accession_sibling_relator_type: Tipo de relacioón de acta de ingreso de hermano
     accession_resource_type: Tipo de fondos de acta de ingreso
     agent_contact_salutation: Saludo autoridad
     agent_relationship_associative_relator: Agent Relationship Associative Relator
     agent_relationship_earlierlater_relator: Agent Relationship Earlierlater Relator
     agent_relationship_parentchild_relator: Agent Relationship Parentchild Relator
-    agent_relationship_subordinatesuperior_relator: Agent Relationship Subordinatesuperior Relator
+    agent_relationship_subordinatesuperior_relator: Agent Relationship Subordinatesuperior
+      Relator
     archival_record_level: Nivel de registro de archivo
-    collection_management_processing_priority: Prioridad de la tramitación de la gestión de la colección
-    collection_management_processing_status: Estado de tramitación de la gestión de la colección
+    collection_management_processing_priority: Prioridad de la tramitación de la gestión
+      de la colección
+    collection_management_processing_status: Estado de tramitación de la gestión de
+      la colección
     container_location_status: Estado de ubicación de contenedores
     container_type: Tipo de contenedor
     country_iso_3166: País ISO 3166

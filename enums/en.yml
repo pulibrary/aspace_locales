@@ -1,3 +1,4 @@
+---
 en:
   enumerations:
     linked_event_archival_record_roles:
@@ -25,7 +26,7 @@ en:
       att: Attributed name
       auc: Auctioneer
       aut: Author
-      aqt: Author in quotations or text abstracts 
+      aqt: Author in quotations or text abstracts
       aft: Author of afterword, colophon, etc.
       aud: Author of dialog
       aui: Author of introduction, etc.
@@ -42,7 +43,7 @@ en:
       bsl: Bookseller
       brl: Braille embosser
       brd: Broadcaster
-      buy: Buyer #added August 2016
+      buy: Buyer
       cll: Calligrapher
       ctg: Cartographer
       cas: Caster
@@ -89,7 +90,7 @@ en:
       dnc: Dancer
       dtc: Data contributor
       dtm: Data manager
-      dlr: Dealer #added August 2016
+      dlr: Dealer
       dte: Dedicatee
       dto: Dedicator
       dfd: Defendant
@@ -298,7 +299,7 @@ en:
     name_rule:
       local: Local rules
       aacr: Anglo-American Cataloging Rules
-      dacs: "Describing Archives: A Content Standard"
+      dacs: 'Describing Archives: A Content Standard'
       rda: Resource Description and Access
     extent_extent_type:
       cassettes: Cassettes
@@ -314,12 +315,12 @@ en:
       sheets: Sheets
       terabytes: Terabytes
       volumes: Volumes
-      digital folders: digital folders #added November 2016
-      digital files: digital files #added November 2016
-      item: item #added November 2016
-      folder: folder #added November 2016
-      boxes: boxes #added November 2016
-      box: box #added September 2017 
+      digital folders: digital folders
+      digital files: digital files
+      item: item
+      folder: folder
+      boxes: boxes
+      box: box
     collection_management_processing_priority:
       none: Not specified
       high: High
@@ -373,7 +374,7 @@ en:
       decryption: Decryption
       deletion: Deletion
       digital_signature_validation: Digital Signature Validation
-      digitization: Digitization 
+      digitization: Digitization
       fixity_check: Fixity Check
       ingestion: Ingestion
       message_digest_calculation: Message Digest Calculation
@@ -389,12 +390,12 @@ en:
       rights_transferred: Rights Transferred
       validation: Validation
       virus_check: Virus Check
-      Preservation: Preservation #added November 2016
-      Exhibit: Exhibit #added November 2016
-      Sensitive Data Scan: Sensitive Data Scan #added November 2016
-      Disk Image: Disk Image #added November 2016
-      Checksum Generation: Checksum Generation #added November 2016
-      File Identification: File Identification #added November 2016
+      Preservation: Preservation
+      Exhibit: Exhibit
+      Sensitive Data Scan: Sensitive Data Scan
+      Disk Image: Disk Image
+      Checksum Generation: Checksum Generation
+      File Identification: File Identification
     resource_resource_type:
       collection: Collection
       publications: Publications
@@ -403,7 +404,7 @@ en:
     resource_finding_aid_description_rules:
       aacr: Anglo-American Cataloguing Rules
       cco: Cataloging Cultural Objects
-      dacs: "Describing Archives: A Content Standard"
+      dacs: 'Describing Archives: A Content Standard'
       rad: Rules for Archival Description
       isadg: International Standard for Archival Description - General
     resource_finding_aid_status:
@@ -436,30 +437,33 @@ en:
       papers: Papers
       records: Records
     subject_source:
-      aat: "Art & Architecture Thesaurus"
+      aat: Art & Architecture Thesaurus
       cash: Canadian Subject Headings
-      gmgpc: "TGM II, Genre and physical characteristic terms"
+      gmgpc: TGM II, Genre and physical characteristic terms
       ingest: Unspecified ingested source
       lcsh: Library of Congress Subject Headings
       lcshac: Library of Congress Children's Subject Headings
       local: Local sources
       mesh: Medical Subject Headings
       nal: National Agricultural Library subject headings
-      rbgenr: "Genre Terms: A Thesaurus for Use in Rare Book and Special Collections Cataloguing"
+      rbgenr: 'Genre Terms: A Thesaurus for Use in Rare Book and Special Collections
+        Cataloguing'
       rvm: Répertoire de vedettes-matière
       tgn: Getty Thesaurus of Geographic Names
     event_outcome:
       pass: Pass
       partial pass: Partial Pass
       fail: Fail
-      Processing Complete: Processing Complete #Added December 2016
-      Sensitive Data Found:  Sensitive Data Found #Added December 2016
-      No Sensitive Data Found: No Sensitive Data Found #Added December 2016
-      Archives File(s) Found: Archive File(s) Found #Added December 2016
-      Extension Mismatch(es) Found: Extension Mismatch(es) Found #Added December 2016
-      Archive File(s) and Extension Mismatch(es) Found: Archive File(s) and Extension Mismatch(es) Found #Added December 2016
-      No Archive File or Extension Mismatch Found: No Archive File or Extension Mismatch Found #Added December 2016
-      Conservation treatment: Conservation treatment #Added December 2016
+      Processing Complete: Processing Complete
+      Sensitive Data Found: Sensitive Data Found
+      No Sensitive Data Found: No Sensitive Data Found
+      Archives File(s) Found: Archive File(s) Found
+      Extension Mismatch(es) Found: Extension Mismatch(es) Found
+      Archive File(s) and Extension Mismatch(es) Found: Archive File(s) and Extension
+        Mismatch(es) Found
+      No Archive File or Extension Mismatch Found: No Archive File or Extension Mismatch
+        Found
+      Conservation treatment: Conservation treatment
     agent_contact_salutation:
       mr: Mr.
       mrs: Mrs.
@@ -524,7 +528,7 @@ en:
       alg: Algonquian languages
       alt: Southern Altai
       amh: Amharic
-      ang: "English, Old (ca.450-1100)"
+      ang: English, Old (ca.450-1100)
       anp: Angika
       apa: Apache languages
       ara: Arabic
@@ -592,16 +596,17 @@ en:
       cho: Choctaw
       chp: Chipewyan; Dene Suline
       chr: Cherokee
-      chu: Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic
+      chu: Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church
+        Slavonic
       chv: Chuvash
       chy: Cheyenne
       cmc: Chamic languages
       cop: Coptic
       cor: Cornish
       cos: Corsican
-      cpe: "Creoles and pidgins, English-based"
-      cpf: "Creoles and pidgins, French-based"
-      cpp: "Creoles and pidgins, Portuguese-based"
+      cpe: Creoles and pidgins, English-based
+      cpf: Creoles and pidgins, French-based
+      cpp: Creoles and pidgins, Portuguese-based
       cre: Cree
       crh: Crimean Tatar; Crimean Turkish
       crp: Creoles and pidgins
@@ -621,7 +626,7 @@ en:
       dra: Dravidian languages
       dsb: Lower Sorbian
       dua: Duala
-      dum: "Dutch, Middle (ca.1050-1350)"
+      dum: Dutch, Middle (ca.1050-1350)
       dut: Dutch; Flemish
       dyu: Dyula
       dzo: Dzongkha
@@ -630,7 +635,7 @@ en:
       eka: Ekajuk
       elx: Elamite
       eng: English
-      enm: "English, Middle (1100-1500)"
+      enm: English, Middle (1100-1500)
       epo: Esperanto
       est: Estonian
       ewe: Ewe
@@ -644,8 +649,8 @@ en:
       fiu: Finno-Ugrian languages
       fon: Fon
       fre: French
-      frm: "French, Middle (ca.1400-1600)"
-      fro: "French, Old (842-ca.1400)"
+      frm: French, Middle (ca.1400-1600)
+      fro: French, Old (842-ca.1400)
       frr: Northern Frisian
       frs: Eastern Frisian
       fry: Western Frisian
@@ -663,14 +668,14 @@ en:
       gle: Irish
       glg: Galician
       glv: Manx
-      gmh: "German, Middle High (ca.1050-1500)"
-      goh: "German, Old High (ca.750-1050)"
+      gmh: German, Middle High (ca.1050-1500)
+      goh: German, Old High (ca.750-1050)
       gon: Gondi
       gor: Gorontalo
       got: Gothic
       grb: Grebo
-      grc: "Greek, Ancient (to 1453)"
-      gre: "Greek, Modern (1453-)"
+      grc: Greek, Ancient (to 1453)
+      gre: Greek, Modern (1453-)
       grn: Guarani
       gsw: Swiss German; Alemannic; Alsatian
       guj: Gujarati
@@ -784,7 +789,7 @@ en:
       mdf: Moksha
       mdr: Mandar
       men: Mende
-      mga: "Irish, Middle (900-1200)"
+      mga: Irish, Middle (900-1200)
       mic: Mi'kmaq; Micmac
       min: Minangkabau
       mis: Uncoded languages
@@ -809,19 +814,19 @@ en:
       nap: Neapolitan
       nau: Nauru
       nav: Navajo; Navaho
-      nbl: "Ndebele, South; South Ndebele"
-      nde: "Ndebele, North; North Ndebele"
+      nbl: Ndebele, South; South Ndebele
+      nde: Ndebele, North; North Ndebele
       ndo: Ndonga
-      nds: "Low German; Low Saxon; German, Low; Saxon, Low"
+      nds: Low German; Low Saxon; German, Low; Saxon, Low
       nep: Nepali
       new: Nepal Bhasa; Newari
       nia: Nias
       nic: Niger-Kordofanian languages
       niu: Niuean
-      nno: "Norwegian Nynorsk; Nynorsk, Norwegian"
-      nob: "Norwegian Bokmål; Bokmål, Norwegian"
+      nno: Norwegian Nynorsk; Nynorsk, Norwegian
+      nob: Norwegian Bokmål; Bokmål, Norwegian
       nog: Nogai
-      non: "Norse, Old"
+      non: Norse, Old
       nor: Norwegian
       nqo: N'Ko
       nso: Pedi; Sepedi; Northern Sotho
@@ -838,7 +843,7 @@ en:
       orm: Oromo
       osa: Osage
       oss: Ossetian; Ossetic
-      ota: "Turkish, Ottoman (1500-1928)"
+      ota: Turkish, Ottoman (1500-1928)
       oto: Otomian languages
       paa: Papuan languages
       pag: Pangasinan
@@ -847,7 +852,7 @@ en:
       pan: Panjabi; Punjabi
       pap: Papiamento
       pau: Palauan
-      peo: "Persian, Old (ca.600-400 B.C.)"
+      peo: Persian, Old (ca.600-400 B.C.)
       per: Persian
       phi: Philippine languages
       phn: Phoenician
@@ -856,9 +861,9 @@ en:
       pon: Pohnpeian
       por: Portuguese
       pra: Prakrit languages
-      pro: "Provençal, Old (to 1500)"
+      pro: Provençal, Old (to 1500)
       pus: Pushto; Pashto
-      qaa-qtz: "Reserved for local use"
+      qaa-qtz: Reserved for local use
       que: Quechua
       raj: Rajasthani
       rap: Rapanui
@@ -883,7 +888,7 @@ en:
       sco: Scots
       sel: Selkup
       sem: Semitic languages
-      sga: "Irish, Old (to 900)"
+      sga: Irish, Old (to 900)
       sgn: Sign Languages
       shn: Shan
       sid: Sidamo
@@ -906,7 +911,7 @@ en:
       sog: Sogdian
       som: Somali
       son: Songhai languages
-      sot: "Sotho, Southern"
+      sot: Sotho, Southern
       spa: Spanish; Castilian
       srd: Sardinian
       srn: Sranan Tongo
@@ -1094,7 +1099,7 @@ en:
       BM: Bermuda
       BT: Bhutan
       BO: Bolivia
-      BQ: "Bonaire, Sint Eustatius and Saba"
+      BQ: Bonaire, Sint Eustatius and Saba
       BA: Bosnia and Herzegovina
       BW: Botswana
       BV: Bouvet Island
@@ -1171,7 +1176,7 @@ en:
       IS: Iceland
       IN: India
       ID: Indonesia
-      IR: "Iran, Islamic Republic of"
+      IR: Iran, Islamic Republic of
       IQ: Iraq
       IE: Ireland
       IM: Isle of Man
@@ -1184,11 +1189,11 @@ en:
       KZ: Kazakhstan
       KE: Kenya
       KI: Kiribati
-      KP: "Korea, Democratic People's Republic of"
-      KR: "Korea, Republic of"
+      KP: Korea, Democratic People's Republic of
+      KR: Korea, Republic of
       KW: Kuwait
       KG: Kyrgyzstan
-      LA: "Lao People's Democratic Republic"
+      LA: Lao People's Democratic Republic
       LV: Latvia
       LB: Lebanon
       LS: Lesotho
@@ -1198,7 +1203,7 @@ en:
       LT: Lithuania
       LU: Luxembourg
       MO: Macao
-      MK: "Macedonia, Former Yugoslav Republic of"
+      MK: Macedonia, Former Yugoslav Republic of
       MG: Madagascar
       MW: Malawi
       MY: Malaysia
@@ -1211,8 +1216,8 @@ en:
       MU: Mauritius
       YT: Mayotte
       MX: Mexico
-      FM: "Micronesia, Federated States of"
-      MD: "Moldova, Republic of"
+      FM: Micronesia, Federated States of
+      MD: Moldova, Republic of
       MC: Monaco
       MN: Mongolia
       ME: Montenegro
@@ -1232,11 +1237,11 @@ en:
       NU: Niue
       NF: Norfolk Island
       MP: Northern Mariana Islands
-      NO: Norway
+      false: Norway
       OM: Oman
       PK: Pakistan
       PW: Palau
-      PS: "Palestinian Territory, Occupied"
+      PS: Palestinian Territory, Occupied
       PA: Panama
       PG: Papua New Guinea
       PY: Paraguay
@@ -1252,7 +1257,7 @@ en:
       RU: Russian Federation
       RW: Rwanda
       BL: Saint Barthélemy
-      SH: "Saint Helena, Ascension and Tristan da Cunha"
+      SH: Saint Helena, Ascension and Tristan da Cunha
       KN: Saint Kitts and Nevis
       LC: Saint Lucia
       MF: Saint Martin (French Part)
@@ -1284,9 +1289,9 @@ en:
       SE: Sweden
       CH: Switzerland
       SY: Syrian Arab Republic
-      TW: "Taiwan, Province of China"
+      TW: Taiwan, Province of China
       TJ: Tajikistan
-      TZ: "Tanzania, United Republic of"
+      TZ: Tanzania, United Republic of
       TH: Thailand
       TL: Timor-Leste
       TG: Togo
@@ -1309,26 +1314,14 @@ en:
       VU: Vanuatu
       VE: Venezuela
       VN: Viet Nam
-      VG: "Virgin Islands, British"
-      VI: "Virgin Islands, U.S."
+      VG: Virgin Islands, British
+      VI: Virgin Islands, U.S.
       WF: Wallis and Futuna
       EH: Western Sahara
       YE: Yemen
       ZM: Zambia
       ZW: Zimbabwe
-    rights_statement_act_type:
-      delete: Delete
-      disseminate: Disseminate
-      migrate: Migrate
-      modify: Modify
-      replicate: Replicate
-      use: Use
-    rights_statement_act_restriction:
-      allow: Allow
-      disallow: Disallow
-      conditional: Conditional
     rights_statement_rights_type:
-      copyright: Copyright
       intellectual_property: Intellectual Property
       license: License
       statute: Statute
@@ -1337,21 +1330,18 @@ en:
       copyrighted: Copyrighted
       public_domain: Public Domain
       unknown: Unknown
-    rights_statement_other_rights_basis:
-      donor: Donor
-      policy: Policy
     subject_term_type:
       cultural_context: Cultural context
       function: Function
       geographic: Geographic
-      genre_form: "Genre / Form"
+      genre_form: Genre / Form
       occupation: Occupation
-      style_period: "Style / Period"
+      style_period: Style / Period
       technique: Technique
       temporal: Temporal
       topical: Topical
       uniform_title: Uniform Title
-    _note_types: &note_type_definitions
+    _note_types:
       accessrestrict: Conditions Governing Access
       accruals: Accruals
       acqinfo: Immediate Source of Acquisition
@@ -1369,7 +1359,7 @@ en:
       phystech: Physical Characteristics and Technical Requirements
       prefercite: Preferred Citation
       processinfo: Processing Information
-      relatedmaterial: Related Archival Materials
+      relatedmaterial: Related Materials
       scopecontent: Scope and Contents
       separatedmaterial: Separated Materials
       userestrict: Conditions Governing Use
@@ -1382,30 +1372,115 @@ en:
       inscription: Inscription
       langmaterial: Language of Materials
       physdesc: Physical Description
-      relatedmaterial: Related Materials
       abstract: Abstract
       physloc: Physical Location
       materialspec: Materials Specific Details
       physfacet: Physical Facet
-      rights_statement: Rights
     note_digital_object_type:
-      <<: *note_type_definitions
-    note_langmaterial_type:
-      <<: *note_type_definitions
+      accessrestrict: Conditions Governing Access
+      accruals: Accruals
+      acqinfo: Immediate Source of Acquisition
+      altformavail: Existence and Location of Copies
+      appraisal: Appraisal
+      arrangement: Arrangement
+      bibliography: Bibliography
+      bioghist: Biographical / Historical
+      custodhist: Custodial History
+      fileplan: File Plan
+      index: Index
+      odd: General
+      otherfindaid: Other Finding Aids
+      originalsloc: Existence and Location of Originals
+      phystech: Physical Characteristics and Technical Requirements
+      prefercite: Preferred Citation
+      processinfo: Processing Information
+      relatedmaterial: Related Materials
+      scopecontent: Scope and Contents
+      separatedmaterial: Separated Materials
+      userestrict: Conditions Governing Use
+      dimensions: Dimensions
+      legalstatus: Legal Status
+      summary: Summary
+      edition: Edition
+      extent: Extent
+      note: General Note
+      inscription: Inscription
+      langmaterial: Language of Materials
+      physdesc: Physical Description
+      abstract: Abstract
+      physloc: Physical Location
+      materialspec: Materials Specific Details
+      physfacet: Physical Facet
     note_multipart_type:
-      <<: *note_type_definitions
+      accessrestrict: Conditions Governing Access
+      accruals: Accruals
+      acqinfo: Immediate Source of Acquisition
+      altformavail: Existence and Location of Copies
+      appraisal: Appraisal
+      arrangement: Arrangement
+      bibliography: Bibliography
+      bioghist: Biographical / Historical
+      custodhist: Custodial History
+      fileplan: File Plan
+      index: Index
+      odd: General
+      otherfindaid: Other Finding Aids
+      originalsloc: Existence and Location of Originals
+      phystech: Physical Characteristics and Technical Requirements
+      prefercite: Preferred Citation
+      processinfo: Processing Information
+      relatedmaterial: Related Materials
+      scopecontent: Scope and Contents
+      separatedmaterial: Separated Materials
+      userestrict: Conditions Governing Use
+      dimensions: Dimensions
+      legalstatus: Legal Status
+      summary: Summary
+      edition: Edition
+      extent: Extent
+      note: General Note
+      inscription: Inscription
+      langmaterial: Language of Materials
+      physdesc: Physical Description
+      abstract: Abstract
+      physloc: Physical Location
+      materialspec: Materials Specific Details
+      physfacet: Physical Facet
     note_singlepart_type:
-      <<: *note_type_definitions
-    note_rights_statement_type:
-      materials: Materials
-      type_note: Type Note
-      additional_information: Additional Information
-    note_rights_statement_act_type:
-      expiration: Expiration
-      extension: Extension
-      permissions: Permissions
-      restrictions: Restrictions
-      additional_information: Additional Information
+      accessrestrict: Conditions Governing Access
+      accruals: Accruals
+      acqinfo: Immediate Source of Acquisition
+      altformavail: Existence and Location of Copies
+      appraisal: Appraisal
+      arrangement: Arrangement
+      bibliography: Bibliography
+      bioghist: Biographical / Historical
+      custodhist: Custodial History
+      fileplan: File Plan
+      index: Index
+      odd: General
+      otherfindaid: Other Finding Aids
+      originalsloc: Existence and Location of Originals
+      phystech: Physical Characteristics and Technical Requirements
+      prefercite: Preferred Citation
+      processinfo: Processing Information
+      relatedmaterial: Related Materials
+      scopecontent: Scope and Contents
+      separatedmaterial: Separated Materials
+      userestrict: Conditions Governing Use
+      dimensions: Dimensions
+      legalstatus: Legal Status
+      summary: Summary
+      edition: Edition
+      extent: Extent
+      note: General Note
+      inscription: Inscription
+      langmaterial: Language of Materials
+      physdesc: Physical Description
+      abstract: Abstract
+      physloc: Physical Location
+      materialspec: Materials Specific Details
+      physfacet: Physical Facet
     linked_agent_role:
       creator: Creator
       source: Source
@@ -1424,9 +1499,9 @@ en:
       forms_part_of: Forms Part of
       has_part: Has Part
     accession_parts_relator_type:
-      part: "\"Part\" relationship"
+      part: '"Part" relationship'
     accession_sibling_relator_type:
-      bound_with: "\"Bound With\" relationship"
+      bound_with: '"Bound With" relationship'
     agent_relationship_subordinatesuperior_relator:
       is_subordinate_to: Is Subordinate to Related
       is_superior_of: Is Superior of Related
@@ -1449,7 +1524,7 @@ en:
     user_defined_enum_4:
       novalue: No value defined
     job_type:
-      print_to_pdf_job: Print To PDF 
+      print_to_pdf_job: Print To PDF
       import_job: Import Data
       find_and_replace_job: Batch Find and Replace (Beta)
       report_job: Reports
@@ -1471,20 +1546,19 @@ en:
       av_materials: Audiovisual Materials
       arrivals: Arrivals
       shared: Shared
-
-
   enumeration_names:
     accession_acquisition_type: Accession Acquisition Type
     accession_parts_relator: Accession Parts Relator
     accession_parts_relator_type: Accession Parts Relator Type
-    accession_sibling_relator: "Accession Sibling Relator"
+    accession_sibling_relator: Accession Sibling Relator
     accession_sibling_relator_type: Accession Sibling Relator Type
     accession_resource_type: Accession Resource Type
     agent_contact_salutation: Agent Contact Salutation
     agent_relationship_associative_relator: Agent Relationship Associative Relator
     agent_relationship_earlierlater_relator: Agent Relationship Earlierlater Relator
     agent_relationship_parentchild_relator: Agent Relationship Parentchild Relator
-    agent_relationship_subordinatesuperior_relator: Agent Relationship Subordinatesuperior Relator
+    agent_relationship_subordinatesuperior_relator: Agent Relationship Subordinatesuperior
+      Relator
     archival_record_level: Archival Record Level
     collection_management_processing_priority: Collection Management Processing Priority
     collection_management_processing_status: Collection Management Processing Status
@@ -1510,7 +1584,6 @@ en:
     file_version_xlink_show_attribute: File Version Xlink Show Attribute
     instance_instance_type: Instance Instance Type
     language_iso639_2: Language ISO 639-2
-    script_iso15924: Language Script ISO 15924
     linked_agent_archival_record_relators: Linked Agent Archival Record Relators
     linked_agent_event_roles: Linked Agent Event Roles
     linked_agent_role: Linked Agent Role
@@ -1521,15 +1594,12 @@ en:
     name_source: Name Source
     note_bibliography_type: Note Bibliography Type
     note_digital_object_type: Note Digital Object Type
-    note_langmaterial_type: Note Language of Materials Type
     note_index_item_type: Note Index Item Type
     note_index_type: Note Index Type
     note_multipart_type: Note Multipart Type
     note_orderedlist_enumeration: Note Orderedlist Enumeration
-    note_rights_statement_act_type: Note Rights Statement Act Type
-    note_rights_statement_type: Note Rights Statement Type
     note_singlepart_type: Note Singlepart Type
-    telephone_number_type: Telephone Number Type 
+    telephone_number_type: Telephone Number Type
     resource_finding_aid_description_rules: Resource Finding Aid Description Rules
     resource_finding_aid_status: Resource Finding Aid Status
     resource_resource_type: Resource Resource Type
@@ -1545,7 +1615,3 @@ en:
     dimension_units: Dimension Units
     restriction_type: Local Access Restriction Type
     location_function_type: Location Function Type
-    rights_statement_external_document_identifier_type: Rights Statement External Document Identifier Type
-    rights_statement_act_restriction: Rights Statement Act Restriction
-    rights_statement_act_type: Rights Statement Act Type
-    rights_statement_other_rights_basis: Rights Statement Other Rights Basis
