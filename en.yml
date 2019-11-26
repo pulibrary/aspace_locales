@@ -8,32 +8,32 @@ en:
     'true': 'True'
     'false': 'False'
   user_defined:
-    boolean_1: Boolean 1
-    boolean_2: Boolean 2
-    boolean_3: Boolean 3
+    boolean_1: University Library Acknowledgement Sent #added December 2016
+    boolean_2: Acknowledgement Sent? #added August 2016
+    boolean_3: Monetary Appraisal? #added August 2016
     integer_1: Integer 1
     integer_2: Integer 2
     integer_3: Integer 3
-    real_1: Real 1
-    real_2: Real 2
+    real_1: Price #added August 2016
+    real_2: Amount of Appraisal #added August 2016
     real_3: Real 3
-    string_1: String 1
-    string_2: String 2
-    string_3: String 3
-    string_4: String 4
-    text_1: Text 1
-    text_2: Text 2
-    text_3: Text 3
+    string_1: Collecting Area #added June 2019
+    string_2: Call Number #added August 2016
+    string_3: Stacks Location #added January 2017
+    string_4: Fund #added August 2016
+    text_1: Acknowledgement Sent by whom #added August 2016
+    text_2: Name of Appraiser #added August 2016
+    text_3: Accessioned by #added August 2016
     text_4: Text 4
     text_5: Text 5
-    date_1: Date 1
+    date_1: Date of Appraisal #added August 2016
     date_1_inline_help: e.g. YYYY-MM-DD
     date_2: Date 2
     date_2_inline_help: e.g. YYYY-MM-DD
     date_3: Date 3
     date_3_inline_help: e.g. YYYY-MM-DD
     enum_1: Controlled Value 1
-    enum_2: Controlled Value 2
+    enum_2: Currency (re Price) #added August 2016
     enum_3: Controlled Value 3
     enum_4: Controlled Value 4
     _singular: User Defined
@@ -137,32 +137,32 @@ en:
     autogen_repo_slug: Since a slug was not manually entered the repository slug was
       automatically generated using the repository short name
     user_defined: &1
-      boolean_1: Boolean 1
-      boolean_2: Boolean 2
-      boolean_3: Boolean 3
+      boolean_1: University Library Acknowledgement Sent #added December 2016
+      boolean_2: Acknowledgement Sent? #added August 2016
+      boolean_3: Monetary Appraisal? #added August 2016
       integer_1: Integer 1
       integer_2: Integer 2
       integer_3: Integer 3
-      real_1: Real 1
-      real_2: Real 2
+      real_1: Price #added August 2016
+      real_2: Amount of Appraisal #added August 2016
       real_3: Real 3
-      string_1: String 1
-      string_2: String 2
-      string_3: String 3
-      string_4: String 4
-      text_1: Text 1
-      text_2: Text 2
-      text_3: Text 3
+      string_1: Collecting Area #added June 2019
+      string_2: Call Number #added August 2016
+      string_3: Stacks Location #added January 2017
+      string_4: Fund #added August 2016
+      text_1: Acknowledgement Sent by whom #added August 2016
+      text_2: Name of Appraiser #added August 2016
+      text_3: Accessioned by #added August 2016
       text_4: Text 4
       text_5: Text 5
-      date_1: Date 1
+      date_1: Date of Appraisal #added August 2016
       date_1_inline_help: e.g. YYYY-MM-DD
       date_2: Date 2
       date_2_inline_help: e.g. YYYY-MM-DD
       date_3: Date 3
       date_3_inline_help: e.g. YYYY-MM-DD
       enum_1: Controlled Value 1
-      enum_2: Controlled Value 2
+      enum_2: Currency (re Price) #added August 2016
       enum_3: Controlled Value 3
       enum_4: Controlled Value 4
       _singular: User Defined
@@ -2973,32 +2973,32 @@ en:
     autogen_repo_slug: Since a slug was not manually entered the repository slug was
       automatically generated using the repository short name
     user_defined:
-      boolean_1: Boolean 1
-      boolean_2: Boolean 2
-      boolean_3: Boolean 3
+      boolean_1: University Library Acknowledgement Sent #added December 2016
+      boolean_2: Acknowledgement Sent? #added August 2016
+      boolean_3: Monetary Appraisal? #added August 2016
       integer_1: Integer 1
       integer_2: Integer 2
       integer_3: Integer 3
-      real_1: Real 1
-      real_2: Real 2
+      real_1: Price #added August 2016
+      real_2: Amount of Appraisal #added August 2016
       real_3: Real 3
-      string_1: String 1
-      string_2: String 2
-      string_3: String 3
-      string_4: String 4
-      text_1: Text 1
-      text_2: Text 2
-      text_3: Text 3
+      string_1: Collecting Area #added June 2019
+      string_2: Call Number #added August 2016
+      string_3: Stacks Location #added January 2017
+      string_4: Fund #added August 2016
+      text_1: Acknowledgement Sent by whom #added August 2016
+      text_2: Name of Appraiser #added August 2016
+      text_3: Accessioned by #added August 2016
       text_4: Text 4
       text_5: Text 5
-      date_1: Date 1
+      date_1: Date of Appraisal #added August 2016
       date_1_inline_help: e.g. YYYY-MM-DD
       date_2: Date 2
       date_2_inline_help: e.g. YYYY-MM-DD
       date_3: Date 3
       date_3_inline_help: e.g. YYYY-MM-DD
       enum_1: Controlled Value 1
-      enum_2: Controlled Value 2
+      enum_2: Currency (re Price) #added August 2016
       enum_3: Controlled Value 3
       enum_4: Controlled Value 4
       _singular: User Defined
@@ -3651,32 +3651,32 @@ en:
     _singular: Resource
     _plural: Resources
     user_defined:
-      boolean_1: Boolean 1
-      boolean_2: Boolean 2
-      boolean_3: Boolean 3
+      boolean_1: University Library Acknowledgement Sent #added December 2016
+      boolean_2: Acknowledgement Sent? #added August 2016
+      boolean_3: Monetary Appraisal? #added August 2016
       integer_1: Integer 1
       integer_2: Integer 2
       integer_3: Integer 3
-      real_1: Real 1
-      real_2: Real 2
+      real_1: Price #added August 2016
+      real_2: Amount of Appraisal #added August 2016
       real_3: Real 3
-      string_1: String 1
-      string_2: String 2
-      string_3: String 3
-      string_4: String 4
-      text_1: Text 1
-      text_2: Text 2
-      text_3: Text 3
+      string_1: Collecting Area #added June 2019
+      string_2: Call Number #added August 2016
+      string_3: Stacks Location #added January 2017
+      string_4: Fund #added August 2016
+      text_1: Acknowledgement Sent by whom #added August 2016
+      text_2: Name of Appraiser #added August 2016
+      text_3: Accessioned by #added August 2016
       text_4: Text 4
       text_5: Text 5
-      date_1: Date 1
+      date_1: Date of Appraisal #added August 2016
       date_1_inline_help: e.g. YYYY-MM-DD
       date_2: Date 2
       date_2_inline_help: e.g. YYYY-MM-DD
       date_3: Date 3
       date_3_inline_help: e.g. YYYY-MM-DD
       enum_1: Controlled Value 1
-      enum_2: Controlled Value 2
+      enum_2: Currency (re Price) #added August 2016
       enum_3: Controlled Value 3
       enum_4: Controlled Value 4
       _singular: User Defined
