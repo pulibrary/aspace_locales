@@ -4,10 +4,12 @@ en:
     suppressed: Suppressed
     deleted: Deleted
     auto_generated: System generates when saved
+
   boolean:
     'true': 'True'
     'false': 'False'
-  user_defined:
+
+  user_defined: &user_defined_attributes
     boolean_1: University Library Acknowledgement Sent #added December 2016
     boolean_2: Acknowledgement Sent? #added August 2016
     boolean_3: Monetary Appraisal? #added August 2016
@@ -38,7 +40,8 @@ en:
     enum_4: Controlled Value 4
     _singular: User Defined
     _plural: User Defined
-  slug:
+
+  slug: &slug_attributes
     slug: Slug
     slug_tooltip: "<p>When using human-readable URLs, the last part of the public
       URL for this record in the ArchivesSpace public interface. The slug can be manually
@@ -56,19 +59,24 @@ en:
       based on the current configuration settings
     autogen_repo_slug: Since a slug was not manually entered the repository slug was
       automatically generated using the repository short name
+
   content_items:
     content: Content
-    content_tooltip: "<p>The content of the note.</p>\n"
-  section_tooltips:
+    content_tooltip: |
+      "<p>The content of the note.</p>\n"
+
+  section_tooltips: &section_tooltips
     lang_materials_tooltip: |
-      <p>The languages and scripts represented in the material(s) described.</p>
-      <p>See DACS 4.5</p>
+        <p>The languages and scripts represented in the material(s) described.</p>
+        <p>See DACS 4.5</p>
     dates_tooltip: |
-      <p>Identifies and records the date(s) that pertain to the creation, assembly, accumulation, and/or maintenance and use of the materials being described.</p>
-      <p>See DACS 2.4</p>
+        <p>Identifies and records the date(s) that pertain to the creation, assembly, accumulation, and/or maintenance and use of the materials being described.</p>
+        <p>See DACS 2.4</p>
     extents_tooltip: |
-      <p>Indicates the extent and the physical nature of the materials being described.</p>
-      <p>See DACS 2.5</p>
+        <p>Indicates the extent and the physical nature of the materials being described.</p>
+        <p>See DACS 2.5</p>
+    classification_tooltip: |
+        "<p>Used for linking the materials described to a Classification or a Classification Term (e.g. a record group system) managed within the application.</p>\n"
     linked_agents_tooltip: "<p>Associates agents as a creator, source, or subject
       of the materials described to provide information about their context.</p>\n"
     subjects_tooltip: "<p>Used for linking Subjects with the materials described.</p>\n"
@@ -85,9 +93,7 @@ en:
       separated and discarded, returned to a donor, or transferred to another institution.</p>\n"
     collection_management_tooltip: "<p>Additional, internal-only information about
       how the materials described will be or have been processed.</p>\n"
-    classification_tooltip: "<p>Used for linking the materials described to a Classification
-      or a Classification Term (e.g. a record group system) managed within the application.</p>\n"
-    user_defined_tooltip: "<p>User defined fields for recording additional information
+        user_defined_tooltip: "<p>User defined fields for recording additional information
       not captured in other sections of the application.</p>\n"
   digital_object:
     lang_materials_tooltip: |
