@@ -6,8 +6,8 @@ en:
     auto_generated: System generates when saved
 
   boolean:
-    'true': 'True'
-    'false': 'False'
+    "true": "True"
+    "false": "False"
 
   user_defined: &user_defined_attributes
     boolean_1: University Library Acknowledgement Sent #added December 2016
@@ -43,18 +43,15 @@ en:
 
   slug: &slug_attributes
     slug: Slug
-    slug_tooltip: "<p>When using human-readable URLs, the last part of the public
-      URL for this record in the ArchivesSpace public interface. The slug can be manually
-      added or updated, or generated automatically based on the configuration settings
-      for human-readable URLs in the config.rb file on the server.</p>\n"
+    slug_tooltip: |
+        "<p>When using human-readable URLs, the last part of the public URL for this record in the ArchivesSpace public interface. The slug can be manually added or updated, or generated automatically based on the configuration settings for human-readable URLs in the config.rb file on the server.</p>\n"
     public_url: Public URL
     public_url_tooltip: |
-      <p>If this record is published or updated to be published, the full URL for this record in the public user interface. If human-readable URLs are being used the end of the URL will be the slug.</p>
-      <p>Whether human-readable URLs are being used or not, the original URI for this record always remains valid.</p>
+        <p>If this record is published or updated to be published, the full URL for this record in the public user interface. If human-readable URLs are being used the end of the URL will be the slug.</p>
+        <p>Whether human-readable URLs are being used or not, the original URI for this record always remains valid.</p>
     is_slug_auto: Automatically Generate Slug?
-    is_slug_auto_tooltip: "<p>If this field is checked, the slug for this record will
-      be automatically generated when the record is saved based on the configuration
-      settings for human-readable URLs in the config.rb file on the server.</p>\n"
+    is_slug_auto_tooltip: |
+        "<p>If this field is checked, the slug for this record will be automatically generated when the record is saved based on the configuration settings for human-readable URLs in the config.rb file on the server.</p>\n"
     autogen_disabled: A slug cannot be automatically generated from the provided data
       based on the current configuration settings
     autogen_repo_slug: Since a slug was not manually entered the repository slug was
@@ -63,7 +60,7 @@ en:
   content_items:
     content: Content
     content_tooltip: |
-      "<p>The content of the note.</p>\n"
+        "<p>The content of the note.</p>\n"
 
   section_tooltips: &section_tooltips
     lang_materials_tooltip: |
@@ -75,26 +72,8 @@ en:
     extents_tooltip: |
         <p>Indicates the extent and the physical nature of the materials being described.</p>
         <p>See DACS 2.5</p>
-    classification_tooltip: |
-        "<p>Used for linking the materials described to a Classification or a Classification Term (e.g. a record group system) managed within the application.</p>\n"
-    linked_agents_tooltip: "<p>Associates agents as a creator, source, or subject
-      of the materials described to provide information about their context.</p>\n"
-    subjects_tooltip: "<p>Used for linking Subjects with the materials described.</p>\n"
-    notes_tooltip: "<p>Additional descriptive information about the materials described,
-      usually in the form of text or structured lists.</p>\n"
-    external_documents_tooltip: "<p>Links to information in other description or management
-      systems, such as donor files, processing plans, etc.</p>\n"
-    rights_statements_tooltip: "<p>Information about the rights status of the materials
-      described and whether there are specific restrictions or permissions that have
-      been indicated.</p>\n"
-    instances_tooltip: "<p>Links description to information about physical or digital
-      instantiations of material.</p>\n"
-    deaccessions_tooltip: "<p>Records information about materials that may have been
-      separated and discarded, returned to a donor, or transferred to another institution.</p>\n"
-    collection_management_tooltip: "<p>Additional, internal-only information about
-      how the materials described will be or have been processed.</p>\n"
-        user_defined_tooltip: "<p>User defined fields for recording additional information
-      not captured in other sections of the application.</p>\n"
+    user_defined_tooltip: |
+      "<p>User defined fields for recording additional information not captured in other sections of the application.</p>\n"
   digital_object:
     lang_materials_tooltip: |
       <p>The languages and scripts represented in the material(s) described.</p>
@@ -105,22 +84,22 @@ en:
     extents_tooltip: |
       <p>Indicates the extent and the physical nature of the materials being described.</p>
       <p>See DACS 2.5</p>
-    linked_agents_tooltip: "<p>Associates agents as a creator, source, or subject
-      of the materials described to provide information about their context.</p>\n"
-    subjects_tooltip: "<p>Used for linking Subjects with the materials described.</p>\n"
-    notes_tooltip: "<p>Additional descriptive information about the materials described,
-      usually in the form of text or structured lists.</p>\n"
-    external_documents_tooltip: "<p>Links to information in other description or management
-      systems, such as donor files, processing plans, etc.</p>\n"
-    rights_statements_tooltip: "<p>Information about the rights status of the materials
-      described and whether there are specific restrictions or permissions that have
-      been indicated.</p>\n"
-    instances_tooltip: "<p>Links description to information about physical or digital
-      instantiations of material.</p>\n"
-    deaccessions_tooltip: "<p>Records information about materials that may have been
-      separated and discarded, returned to a donor, or transferred to another institution.</p>\n"
-    collection_management_tooltip: "<p>Additional, internal-only information about
-      how the materials described will be or have been processed.</p>\n"
+    linked_agents_tooltip: |
+        "<p>Associates agents as a creator, source, or subject of the materials described to provide information about their context.</p>\n"
+    subjects_tooltip: |
+        "<p>Used for linking Subjects with the materials described.</p>\n"
+    notes_tooltip: |
+        "<p>Additional descriptive information about the materials described, usually in the form of text or structured lists.</p>\n"
+    external_documents_tooltip: |
+        "<p>Links to information in other description or management systems, such as donor files, processing plans, etc.</p>\n"
+    rights_statements_tooltip: |
+        "<p>Information about the rights status of the materials described and whether there are specific restrictions or permissions that have been indicated.</p>\n"
+    instances_tooltip: |
+        "<p>Links description to information about physical or digital instantiations of material.</p>\n"
+    deaccessions_tooltip: |
+        "<p>Records information about materials that may have been separated and discarded, returned to a donor, or transferred to another institution.</p>\n"
+    collection_management_tooltip: |
+        "<p>Additional, internal-only information about how the materials described will be or have been processed.</p>\n"
     classification_tooltip: "<p>Used for linking the materials described to a Classification
       or a Classification Term (e.g. a record group system) managed within the application.</p>\n"
     user_defined_tooltip: "<p>User defined fields for recording additional information
@@ -207,7 +186,10 @@ en:
       to an associated content file, addressable by URI.</p>\n"
     _singular: Digital Object
     _plural: Digital Objects
+
   digital_object_component:
+    <<: *digital_object_attributes
+    <<: *slug_attributes
     lang_materials_tooltip: |
       <p>The languages and scripts represented in the material(s) described.</p>
       <p>See DACS 4.5</p>
@@ -303,7 +285,7 @@ en:
     component_id_tooltip: "<p>A unique identifier for the Digital Object Component.</p>\n"
     dates: Dates
     has_unpublished_ancestor: Has Unpublished Ancestor?
-  location:
+  location: &location_attributes
     title: Location
     temporary_question: Temporary?
     temporary: Temporary
@@ -361,7 +343,9 @@ en:
     owner_repo_tooltip: A repository that has reserved this location
     _singular: Location
     _plural: Locations
+
   location_batch:
+    <<: *location_attributes
     title: Location
     temporary_question: Temporary?
     temporary: Temporary
