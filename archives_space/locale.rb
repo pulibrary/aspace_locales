@@ -22,7 +22,7 @@ module ArchivesSpace
     end
 
     def id
-      relative_path
+      relative_path.to_s
     end
 
     def file

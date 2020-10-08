@@ -9,6 +9,7 @@ set :repo_url, "git@github.com:pulibrary/aspace_locales.git"
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
+set :deploy_to, "/opt/archivesspace"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh

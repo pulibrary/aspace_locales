@@ -11,11 +11,11 @@ class ArchivesSpaceCli < Thor
   def build
     lyrasis_locales.each_value do |locale|
       if princeton_locales.include?(locale.id)
+        princeton_locale = princeton_locales[locale.id]
+        locale.merge(princeton_locale)
         built_locale = locale.dup
         logger.info("Copying the locale #{built_locale.id} from the Lyrasis release...")
       else
-        princeton_locale = princeton_locales[locale.id]
-        locale.merge(princeton_locale)
         built_locale = locale.dup
         logger.info("Merging the locale #{built_locale.id} from the Lyrasis release with the Princeton customization...")
       end
